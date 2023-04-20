@@ -11,7 +11,7 @@ public class Example {
 
 
         // Open the file
-        InputStream file = new FileInputStream("2knnbody_lod1_1.dds");
+        InputStream file = new FileInputStream("example.dds");
 
         // Create a new BinRead object
         BinRead br = new BinRead(Endian.LITTLE);
